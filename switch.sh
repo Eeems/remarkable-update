@@ -15,3 +15,4 @@ echo "fallback: ${OLDPART}"
 
 fw_setenv "fallback_partition" "${OLDPART}"
 fw_setenv "active_partition" "${NEWPART}"
+fw_setenv "upgrade_available" "0"
